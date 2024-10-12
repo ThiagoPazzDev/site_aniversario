@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #b569fc, #b86bff);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.container {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero{
+    background-image: linear-gradient(to bottom, #9320ff, #6e16c0);
+    margin: 70px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.hero__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero__text{
+    color: white;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.hero__title{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.hero__p{
+    font-size: 30px;
+}
+
+.hero__img{
+    width: 500px;
+}
+
+/**/
+
+.info__question{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.info__box{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 80px;
+    margin-bottom: 40px;
+}
+
+.info__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.info__description {
+    line-height: 22px;
+}
+
+.info__img{
+    width: 400px;
+}
+
+.info__text{
+    color: white;
+}
+
+.image__left{
+    flex-direction: row-reverse;
+}
+
+.info--aniversario{
+    background-image: linear-gradient(to bottom,#a341ff,#8400ff);
+}
+
+.info--comidas{
+    background-image: linear-gradient(to bottom ,#8400ff,#a341ff);
+}
+
+.info--lembracinhas{
+    background-image: linear-gradient(to bottom,#a341ff,#8400ff);
+}
+
+
+
